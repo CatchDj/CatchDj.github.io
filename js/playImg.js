@@ -42,13 +42,17 @@ function preshowImage(){
 }
 
 function buttonFadeIn(){
+	console.log("ho rha")
 	if(btnVal < 1){
 		btnVal += 0.025;
 		btn.style.opacity = btnVal;
+		console.log("if ke andr")
 	}
 	else{
+		console.log("else ke andr")
 		clearInterval(buttonInterval);
 		if(ok == 3){
+			console.log("else ke if ke andr")
 			ok += 1;
 		}
 	}
